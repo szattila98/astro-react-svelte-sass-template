@@ -1319,6 +1319,7 @@ __metadata:
     eslint-plugin-prettier: ^4.2.1
     eslint-plugin-react: ^7.32.2
     eslint-plugin-svelte: ^2.19.0
+    eslint-plugin-tailwindcss: ^3.8.3
     prettier: ^2.8.4
     prettier-plugin-astro: ^0.8.0
     prettier-plugin-svelte: ^2.9.0
@@ -2357,6 +2358,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-plugin-tailwindcss@npm:^3.8.3":
+  version: 3.8.3
+  resolution: "eslint-plugin-tailwindcss@npm:3.8.3"
+  dependencies:
+    fast-glob: ^3.2.5
+    postcss: ^8.4.4
+  peerDependencies:
+    tailwindcss: ^3.2.2
+  checksum: 4c213205c020ae97c8dd39edf6696ff8791542acc536d645fbdeff1de8b4b037be87282205d30bb7374b67414b38bbb3acd528cc5a0a5296464437ba0c18c202
+  languageName: node
+  linkType: hard
+
 "eslint-scope@npm:^7.0.0, eslint-scope@npm:^7.1.1":
   version: 7.1.1
   resolution: "eslint-scope@npm:7.1.1"
@@ -2557,7 +2570,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.9":
+"fast-glob@npm:^3.2.11, fast-glob@npm:^3.2.12, fast-glob@npm:^3.2.5, fast-glob@npm:^3.2.9":
   version: 3.2.12
   resolution: "fast-glob@npm:3.2.12"
   dependencies:
@@ -5017,7 +5030,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.0.9, postcss@npm:^8.4.14, postcss@npm:^8.4.21, postcss@npm:^8.4.5":
+"postcss@npm:^8.0.9, postcss@npm:^8.4.14, postcss@npm:^8.4.21, postcss@npm:^8.4.4, postcss@npm:^8.4.5":
   version: 8.4.21
   resolution: "postcss@npm:8.4.21"
   dependencies:
@@ -6491,9 +6504,9 @@ __metadata:
   linkType: hard
 
 "vscode-languageserver-textdocument@npm:^1.0.1, vscode-languageserver-textdocument@npm:^1.0.4, vscode-languageserver-textdocument@npm:^1.0.8":
-  version: 1.0.9
-  resolution: "vscode-languageserver-textdocument@npm:1.0.9"
-  checksum: 36b76f725098d3e0d97885c05c51fca47388d9b62e936f6c8824c44a4fac7a96e1406538538a0f46ef1fdb9f1053ddc1cacb5e7b168cecb36d3c018942ec6f52
+  version: 1.0.8
+  resolution: "vscode-languageserver-textdocument@npm:1.0.8"
+  checksum: d6b685456ceca2736793d7fc1924d78a8483997c96c6ec4900d90e64115730da6c0c03e3fbc2c5d031a4592f2acd9cca2ca58a651b696c4f40b8690a48538c06
   languageName: node
   linkType: hard
 
