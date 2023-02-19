@@ -1,13 +1,19 @@
 ---
-import ReactJs from '../components/ReactJs';
-import ReactTs from '../components/ReactTs';
+import ReactJs from '../components/react/ReactJs';
+import ReactTs from '../components/react/ReactTs';
 import Svelte from '../components/Svelte.svelte';
 ---
 
-<div>
+<div class="bg">
 	<ReactJs />
 	<ReactTs />
 	<Svelte msg={'hellooooo'} />
 </div>
 
-<style></style>
+<style lang="scss">
+	.bg {
+		&:hover {
+			background: lightblue;
+		}
+	}
+</style>

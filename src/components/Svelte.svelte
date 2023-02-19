@@ -2,4 +2,12 @@
 	export let msg: string;
 </script>
 
-<div>I am a Svelte component! - {msg}</div>
+<div class="msg">I am a Svelte component! - {msg}</div>
+
+<style lang="scss">
+	.msg {
+		&:hover {
+			font-weight: bold;
+		}
+	}
+</style>
