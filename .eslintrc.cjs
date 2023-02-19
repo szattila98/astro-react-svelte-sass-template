@@ -1,5 +1,9 @@
 module.exports = {
 	extends: ['eslint:recommended', 'prettier'],
+	rules: {
+		'prettier/prettier': ['warn', { endOfLine: 'auto' }],
+	},
+	plugins: ['react', 'prettier'],
 	overrides: [
 		{
 			files: ['**/*.cjs'],
