@@ -3,7 +3,7 @@ module.exports = {
 	rules: {
 		'prettier/prettier': ['warn', { endOfLine: 'auto' }],
 	},
-	plugins: ['react', 'prettier'],
+	plugins: ['prettier'],
 	overrides: [
 		{
 			files: ['**/*.cjs'],
@@ -30,6 +30,7 @@ module.exports = {
 				ecmaVersion: 'latest',
 				sourceType: 'module',
 			},
+			plugins: ['react'],
 		},
 	],
 };
