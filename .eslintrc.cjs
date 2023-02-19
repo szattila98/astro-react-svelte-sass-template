@@ -23,19 +23,22 @@ module.exports = {
 		},
 		{
 			files: ['**/*.tsx', '**/*.jsx'],
-			extends: ['plugin:react/recommended'],
 			env: {
 				es6: true,
 			},
 			parserOptions: {
 				ecmaVersion: 'latest',
 				sourceType: 'module',
+				ecmaFeatures: {
+					jsx: true,
+				},
 			},
 			plugins: ['react'],
+			extends: ['plugin:react/recommended'],
 		},
 		{
 			files: ['**/*.svelte'],
-			extends: ['plugin:svelte/recommended'],
+			extends: ['plugin:svelte/recommended', 'plugin:svelte/prettier'],
 			parser: 'svelte-eslint-parser',
 			parserOptions: {
 				parser: '@typescript-eslint/parser',
