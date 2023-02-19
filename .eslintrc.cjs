@@ -2,6 +2,7 @@ module.exports = {
 	extends: ['eslint:recommended', 'prettier'],
 	rules: {
 		'prettier/prettier': ['warn', { endOfLine: 'auto' }],
+		'no-unused-vars': 'warn',
 	},
 	plugins: ['prettier'],
 	overrides: [

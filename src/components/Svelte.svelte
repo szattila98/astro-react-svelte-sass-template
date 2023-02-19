@@ -1,3 +1,5 @@
-<script lang="ts"></script>
+<script lang="ts">
+	export let msg: string;
+</script>
 
-<div>I am a Svelte component!</div>
+<div>I am a Svelte component! - {msg}</div>
