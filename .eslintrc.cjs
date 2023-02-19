@@ -54,7 +54,7 @@ module.exports = {
 			},
 		},
 		{
-			files: ['**/*.svelte'],
+			files: ['*.svelte'],
 			extends: ['plugin:svelte/recommended', 'plugin:svelte/prettier'],
 			parser: 'svelte-eslint-parser',
 			parserOptions: {
