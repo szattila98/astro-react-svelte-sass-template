@@ -32,5 +32,14 @@ module.exports = {
 			},
 			plugins: ['react'],
 		},
+		{
+			files: ['**/*.svelte'],
+			extends: ['plugin:svelte/recommended'],
+			parser: 'svelte-eslint-parser',
+			parserOptions: {
+				parser: '@typescript-eslint/parser',
+				extraFileExtensions: ['.svelte'],
+			},
+		},
 	],
 };

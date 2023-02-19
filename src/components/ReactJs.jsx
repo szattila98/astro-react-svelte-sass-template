@@ -1,3 +1,3 @@
-const React = () => <div>React message</div>;
+const React = () => <div>I am a React component!</div>;
 
 export default React;

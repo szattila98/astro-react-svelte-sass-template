@@ -1,5 +1,5 @@
 {
-	"eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact"],
+	"eslint.validate": ["javascript", "javascriptreact", "astro", "typescript", "typescriptreact", "svelte"],
 	"prettier.documentSelectors": ["**/*.astro"],
 	"[astro]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -8,6 +8,9 @@
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	},
 	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"[svelte]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode"
 	}
 }
