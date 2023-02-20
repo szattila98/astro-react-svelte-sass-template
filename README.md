@@ -51,3 +51,7 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Info on @netlify/classnames-template-literals
+
+This is only used because eslint-plugin-tailwindcss cannot handle Svelte files yet, so for it to work this is needed. In the future if there is a fix it can be dropped.

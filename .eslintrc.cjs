@@ -5,7 +5,7 @@ module.exports = {
 	rules: {
 		'prettier/prettier': ['warn', { endOfLine: 'auto' }],
 		'no-unused-vars': 'warn',
-		'tailwindcss/no-custom-classname': 'off',
+		'tailwindcss/no-custom-classname': 'warn',
 	},
 	overrides: [
 		{
