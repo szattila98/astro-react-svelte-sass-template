@@ -4,16 +4,8 @@ import ReactTs from '../components/react/ReactTs';
 import Svelte from '../components/Svelte.svelte';
 ---
 
-<div class="bg">
+<div class="hover:bg-red-500">
 	<ReactJs />
 	<ReactTs client:load />
 	<Svelte msg={'hellooooo'} client:load />
 </div>
-
-<style lang="scss">
-	.bg {
-		&:hover {
-			background: lightblue;
-		}
-	}
-</style>
